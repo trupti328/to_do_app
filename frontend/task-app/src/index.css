@@ -1,0 +1,22 @@
+.body {
+  background-color: #7b4157;
+   margin: 0;
+  padding: 0;
+}
+
+.custom-card {
+  background-color: #e9bde8 !important;
+  border: 2px solid #7b4157 !important;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn {
+  background-color: #b8749d;
+  color: white;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #a65d88;
+}
