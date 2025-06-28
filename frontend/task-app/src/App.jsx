@@ -3,7 +3,7 @@ import TaskForm from './Components/TaskForm';
 import TaskList from './Components/TaskList';
 import axios from 'axios';
 
-const API_URL = "http://localhost:3000/tasks";
+const API_URL = `${window.location.origin}/tasks`;
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
